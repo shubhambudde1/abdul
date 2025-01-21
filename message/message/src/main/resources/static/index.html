@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message CRUD App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Message CRUD Application</h1>
+
+    <div class="form">
+        <label for="id">ID:</label>
+        <input type="text" id="id" placeholder="Enter ID">
+
+        <label for="content">Content:</label>
+        <input type="text" id="content" placeholder="Enter Content">
+
+        <button id="create">Create</button>
+        <button id="read-all">Read All</button>
+        <button id="read-by-id">Read by ID</button>
+        <button id="update">Update</button>
+        <button id="delete">Delete</button>
+    </div>
+
+    <div class="result">
+        <h2>Result</h2>
+        <pre id="output"></pre>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
